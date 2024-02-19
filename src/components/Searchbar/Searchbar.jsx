@@ -14,6 +14,8 @@ const Searchbar = ({ onSubmit }) => {
           autocomplete="off"
           autofocus
           placeholder="Search images and photos"
+          name="searchInput"
+          required
         />
       </form>
     </header>
